@@ -97,9 +97,35 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
 .character-summary {
-    height: 6rem;
+    /*height: 6rem;*/
+    padding: 1rem 2rem;
     background-color: #999999;
+}
+
+.character-meta {
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+.character-lvl {
+    text-align: right;
+}
+
+.expand-character-details {
+    position: fixed;
+    top: 1.5rem;
+    right: 2rem;
+    padding: 0;
 }
 
 .character-nav {
