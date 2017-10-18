@@ -105,6 +105,11 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
+section h3 {
+    text-align: center;
+    margin: .75rem 0;
+}
+
 .character-summary {
     padding: 1rem 2rem;
     color: #ffffff;
@@ -130,7 +135,7 @@ h1, h2, h3, h4 {
 }
 
 .character-nav {
-    height: 3rem;
+    height: 2rem;
     background-color: #cccccc;
 }
 
@@ -146,11 +151,6 @@ h1, h2, h3, h4 {
 
 .character-nav li {
     display: inline-block;
-}
-
-section h3 {
-    text-align: center;
-    margin: .75rem 0;
 }
 
 
