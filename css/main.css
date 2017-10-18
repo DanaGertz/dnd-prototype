@@ -106,9 +106,9 @@ h1, h2, h3, h4 {
 }
 
 .character-summary {
-    /*height: 6rem;*/
     padding: 1rem 2rem;
-    background-color: #999999;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 .character-meta {
@@ -126,6 +126,7 @@ h1, h2, h3, h4 {
     top: 1.5rem;
     right: 2rem;
     padding: 0;
+    color: #ffffff;
 }
 
 .character-nav {
@@ -145,7 +146,6 @@ h1, h2, h3, h4 {
 
 .character-nav li {
     display: inline-block;
-    border-style: 1px solid #ffffff;
 }
 
 
