@@ -153,6 +153,28 @@ section h3 {
     display: inline-block;
 }
 
+.content-container {
+    padding: 0 2rem;
+}
+
+.ability-modifier {
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.ability {
+    display: inline-block;
+    /*width: 32%;*/
+    margin: 0 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.ability-modifier {
+    font-size: 2rem;
+}
+
 
 
 
