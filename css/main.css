@@ -162,22 +162,23 @@ section {
     padding: 0 2rem;
 }
 
-.ability-modifier {
+.abilities-container {
     display: flex;
     justify-content: space-between;
     align-content: stretch;
     flex-wrap: wrap;
 }
 
-.ability {
-    display: inline-block;
-    /*width: 32%;*/
-    margin: 0 1.5rem;
-    padding-bottom: 1rem;
+.ability-modifier {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
 }
 
-.ability-modifier {
-    font-size: 2rem;
+.ability {
+    display: inline-block;
+    margin: 0 1.5rem;
+    padding-bottom: 1rem;
 }
 
 .extra-abilities {
