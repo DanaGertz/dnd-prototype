@@ -110,6 +110,11 @@ section h3 {
     margin: .75rem 0;
 }
 
+section {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #000000;
+}
+
 .character-summary {
     padding: 1rem 2rem;
     color: #ffffff;
@@ -136,7 +141,7 @@ section h3 {
 
 .character-nav {
     height: 2rem;
-    background-color: #cccccc;
+    background-color: #0B5351;
 }
 
 .character-nav ul {
@@ -173,6 +178,12 @@ section h3 {
 
 .ability-modifier {
     font-size: 2rem;
+}
+
+.extra-abilities {
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
 }
 
 
